@@ -24,8 +24,8 @@ body
 img
 {
     float: right;
-    border: 1px solid white;
-    box-shadow: 2px 2px 2px white;
+    border: 1px solid rgb(146,96,111);
+    box-shadow: 2px 2px 2px rgb(146,96,111);
 }
 h1, h2
 {
@@ -57,4 +57,25 @@ section
 #contenu
 {
     width: 85%;
+}
+/* Partie 4 */
+
+@media all and (max-width: 1024px)
+{
+    section
+    {
+    display: block;
+    width: auto;
+    }
+
+#liseret
+    {   
+    display: none;
+    }
+
+#contenu
+    { 
+    width: auto;
+   }
+
 }
