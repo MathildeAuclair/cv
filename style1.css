@@ -1,0 +1,60 @@
+@font-face 
+{
+    font-family: 'vintageking.ttf';
+    src: url(/users/mathmiko/desktop/exo/vintageking.ttf);
+}
+
+body
+{
+    background-image: url(/users/mathmiko/desktop/exo/japo.png);
+}
+
+h1, h2
+{
+    font-family: 'vintageking', Arial, sans-serif;
+}
+
+h1, h1 + p
+{
+    text-align: center;
+}
+
+img
+{
+    float: right;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+
+h2
+{
+    color: rgb(146,96,111);
+}
+
+section
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 2%;
+}
+
+#liseret, #contenu
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#liseret
+{   
+    width: 10%;
+    margin-right: 3%;
+    height: 500px;
+    background-image: url(/users/mathmiko/desktop/exo/lodyas.png);
+    border-radius: 10px;
+}
+
+#contenu
+{
+    width: 85%;
+}
