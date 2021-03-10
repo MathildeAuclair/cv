@@ -1,0 +1,60 @@
+/* Feuille de styles CSS */
+
+h2
+{
+    color: rgb(146,96,111);
+}
+h1, h2, p
+{
+    text-align: center;
+}
+body
+{
+    background-image: url(/users/mathmiko/desktop/exo/fond.jpg);
+}
+*
+{
+    color: black;
+}
+@font-face 
+{
+    font-family: 'vintageking';
+    src: url(/users/mathmiko/desktop/exo/vintageking.ttf);
+}
+img
+{
+    float: right;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px white;
+}
+h1, h2
+{
+    font-family: 'vintageking', Arial, serif;
+}
+section
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 2%;
+}
+
+#liseret, #contenu
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#liseret
+{   
+    width: 10%;
+    margin-right: 3%;
+    height: 500px;
+    background-image: url(/users/mathmiko/desktop/exo/lodyas.png);
+    border-radius: 10px;
+}
+
+#contenu
+{
+    width: 85%;
+}
